@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find out which slurpee you are!</title>
+</head>
+
+<body>
+    <h1 class='introTitle'>Wondering what type of slurpee you are?</h1>
+    <p class='intro'>Bored at home? Well i've got the quiz for you. With summer time around the corner, slurpee season is about to begin. Find out what flavour you are, by answering eight questions below. Have fun!</p>
+
+    <h2 class='title'>Answer 8 questions and we'll tell you what type of slurpee you are</h1>
+
+        <div class="questionHolder">
+            <h3 class='question'>Choose one unique name</h3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ1'>
+                <button class='answer' id='Q1' onclick="choose(1, 'Q1')">Venus</button>
+                <button class='answer' id='Q1' onclick="choose(2, 'Q1')">Bexley</button>
+                <button class='answer' id='Q1' onclick="choose(3, 'Q1')">Pandora</button>
+                <button class='answer' id='Q1' onclick="choose(4, 'Q1')">Legend</button>
+            </div>
+
+        </div>
+
+        <div class="questionHolder">
+            <H3 class='question'>Choose a city in Europe to live in</H3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ2'>
+                <button class='answer' id='Q2' onclick="choose(1, 'Q2')">Budapest</button>
+                <button class='answer' id='Q2' onclick="choose(2, 'Q2')">Paris</button>
+                <button class='answer' id='Q2' onclick="choose(3, 'Q2')">Prague</button>
+                <button class='answer' id='Q2' onclick="choose(4, 'Q2')">Copenhagen</button>
+            </div>
+        </div>
+
+        <div class="questionHolder">
+            <h3 class='question'>Choose an angel number combination</h3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ3'>
+                <button class='answer' id='Q3' onclick="choose(1, 'Q3')"> 777 </button>
+                <button class='answer' id='Q3' onclick="choose(2, 'Q3')"> 444 </button>
+                <button class='answer' id='Q3' onclick="choose(3, 'Q3')"> 333 </button>
+                <button class='answer' id='Q3' onclick="choose(4, 'Q3')"> 666 </button>
+            </div>
+        </div>
+
+        <div class="questionHolder">
+            <h3 class='question'>Choose one meal that you could eat for the rest of your life</h3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ4'>
+                <button class='answer' id='Q4' onclick="choose(1, 'Q4')"> Salad </button>
+                <button class='answer' id='Q4' onclick="choose(2, 'Q4')"> Burger and fries </button>
+                <button class='answer' id='Q4' onclick="choose(3, 'Q4')"> Bowl of pasta </button>
+                <button class='answer' id='Q4' onclick="choose(4, 'Q4')"> Seafood dish </button>
+            </div>
+        </div>
+
+        <div class="questionHolder">
+            <h3 class='question'>Choose a Harry Potter house</h3>
+        </div>
+
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ5'>
+                <button class='answer' id='Q5' onclick="choose(1, 'Q5')">Gryffindor</button>
+                <button class='answer' id='Q5' onclick="choose(2, 'Q5')">Hufflepuff</button>
+                <button class='answer' id='Q5' onclick="choose(3, 'Q5')">Ravenclaw</button>
+                <button class='answer' id='Q5' onclick="choose(4, 'Q5')">Slytherin</button>
+            </div>
+        </div>
+
+        <div class="questionHolder">
+            <h3 class='question'> Choose one artist you love</h3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ6'>
+                <button class='answer' id='Q6' onclick="choose(1, 'Q6')"> Taylor Swift </button>
+                <button class='answer' id='Q6' onclick="choose(2, 'Q6')"> Adèle </button>
+                <button class='answer' id='Q6' onclick="choose(3, 'Q6')"> Nick Jonas </button>
+                <button class='answer' id='Q6' onclick="choose(4, 'Q6')"> Shawn Mendes </button>
+            </div>
+        </div>
+        <div class="questionHolder">
+            <h3 class='question'> Choose your favourite season</h3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ7'>
+                <button class='answer' id='Q7' onclick="choose(1, 'Q7')"> Winter </button>
+                <button class='answer' id='Q7' onclick="choose(2, 'Q7')"> Spring </button>
+                <button class='answer' id='Q7' onclick="choose(3, 'Q7')"> Summer </button>
+                <button class='answer' id='Q7' onclick="choose(4, 'Q7')"> Autumn </button>
+            </div>
+        </div>
+
+        <div class="questionHolder">
+            <h3 class='question'> Lastly, choose a perfect way to spend a friday night</h3>
+        </div>
+        <div class="flexContainer">
+            <div class='answerBox' id='ABQ8'>
+                <button class='answer' id='Q8' onclick="choose(1, 'Q8')"> Reading a book</button>
+                <button class='answer' id='Q8' onclick="choose(2, 'Q8')"> Partyyyy!!!</button>
+                <button class='answer' id='Q8' onclick="choose(3, 'Q8')"> Asleep by 9pm</button>
+                <button class='answer' id='Q8' onclick="choose(4, 'Q8')"> Netflix and chill </button>
+            </div>
+        </div>
+        <div class="flexContainer">
+            <div class='resultContainer'>
+                <h1 class='result'> You are...</h1>
+                <h2 class='resultExplanation'> Bla bla bla bla bla bla </h2>
+                <img class="imageResult" src="" alt="">
+            </div>
+        </div>
+
+        <div class='credit'>
+            <h1 class='creditText'>Thank you Louka for helping me</h1>
+        </div>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="script.js"></script>
+</body>
+
+</html>

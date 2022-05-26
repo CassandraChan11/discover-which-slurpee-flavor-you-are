@@ -1,0 +1,97 @@
+/* FONTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Fjalla+One&family=Shadows+Into+Light+Two&family=Unna&display=swap");
+body {
+    font-family: "Unna", serif;
+    font-size: 22px;
+    background-color: #f1b7b8;
+}
+
+.introTitle {
+    text-align: center;
+}
+
+.intro {
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 43px;
+    color: #d3354b;
+}
+
+.questionHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.question {
+    font-family: "Bangers", cursive;
+    padding: 14px;
+    color: black;
+    background-color: #d3354b;
+    text-align: center;
+}
+
+.answer {
+    background: #7c97c6;
+    font-family: "Shadows Into Light Two", cursive;
+    min-width: 180px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.answer:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.answerBox {
+    display: flex;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    text-align: center;
+}
+
+.resultExplanation {
+    text-align: center;
+}
+
+.resultContainer {
+    display: none;
+    background: #d3354b;
+    margin: 40px;
+    font-family: "Bangers", cursive;
+    width: 50%;
+}
+
+.imageResult {
+    max-width: 100%;
+}
+
+.creditText {
+    font-size: 20px;
+}
