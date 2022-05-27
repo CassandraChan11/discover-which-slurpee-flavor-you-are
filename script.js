@@ -17,7 +17,7 @@ function choose(n, cat) {
     if (answered === 8) {
         resultContainer.style.display = "block";
 
-        if (points > 22) {
+        if (points > 21) {
             finalResult = "A Blue Raspberry slushie!!";
             image.src = "https://foodlocate.com/storage/media/dishes_main/1951192/44ada4ea-7dfb-4497-b753-2c9fe717564b-retina-large-jpeg.jpeg";
         } else if (points > 15 && points < 22) {
